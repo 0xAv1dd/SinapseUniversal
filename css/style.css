@@ -27,3 +27,35 @@ h1 {
 button {
   margin-top: 10px;
 }
+
+.music {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    font-family: monospace;
+}
+
+.music audio {
+    width: 320px;
+    max-width: 90%;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+}
+
+#playlist li {
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+#playlist li:hover {
+    color: cyan;
+}
+
+#playlist li.active {
+    color: cyan;
+    font-weight: bold;
+    text-shadow: 0 0 8px cyan;
+}
